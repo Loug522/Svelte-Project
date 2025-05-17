@@ -6,9 +6,10 @@
 
 <style>
   nav {
-    outline: 1px solid red;
     display: inline flex;
     gap: 1rem;
-    width: 100vw;
+    justify-content: center;
+    min-height: 3rem;
+    width: 100%;
   }
 </style>
