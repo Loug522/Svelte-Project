@@ -28,7 +28,7 @@
   }
 
   .hero {
-    height: 85vh;
+    height: calc(100vh - 6rem);
     align-content: center;
   }
 </style>
