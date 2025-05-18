@@ -1,12 +1,17 @@
 <script>
   import Header from "./components/Header.svelte";
   import Footer from "./components/Footer.svelte";
+  import Main from "./components/Main.svelte";
+  import SideArticles from "./components/SideArticles.svelte";
 </script>
 
 <main class="main-grid">
   <Header />
-  <div class="hero">
-    <h1>Hello, World!</h1>
+  <div class="main-container">
+    <Main />
+    <div class="sidebar">
+      <SideArticles />
+    </div>
   </div>
   <Footer />
 </main>
@@ -22,13 +27,9 @@
     width: 100vw;
   }
 
-  .main-grid {
-    display: grid;
-    grid-template-rows: 1fr;
-  }
-
-  .hero {
-    height: calc(100vh - 6rem);
+  .main-container {
+    display: flex;
     align-content: center;
+    height: calc(100vh - 6.5rem);
   }
 </style>

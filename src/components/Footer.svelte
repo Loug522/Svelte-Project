@@ -4,6 +4,7 @@
 
 <style>
   footer {
-    min-height: 2rem;
+    background: #1a1a1a;
+    padding-block: 1rem;
   }
 </style>
