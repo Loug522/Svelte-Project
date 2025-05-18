@@ -18,15 +18,14 @@
 
 <style>
   main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-inline: auto;
-
     p,
     h1 {
       max-width: 75ch;
       padding-block-end: 1rem;
+    }
+
+    p {
+      letter-spacing: 0.02rem;
     }
   }
 </style>

@@ -29,7 +29,9 @@
 
   .main-container {
     display: flex;
-    align-content: center;
+    gap: 3rem;
     height: calc(100vh - 6.5rem);
+    margin-inline: 5rem;
+    padding-block: 1rem;
   }
 </style>
