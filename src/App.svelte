@@ -10,4 +10,5 @@
   <div class="box-container">
     <GridLayout />
   </div>
+  <footer>testing</footer>
 </main>
