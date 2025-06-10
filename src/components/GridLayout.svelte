@@ -25,6 +25,6 @@
   .blue {
     background: #176dee;
     grid-row: 2 / 5;
-    grid-column: 3 / 5;
+    grid-column: 3 / -1;
   }
 </style>
