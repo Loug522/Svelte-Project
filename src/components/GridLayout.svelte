@@ -2,12 +2,13 @@
   <div class="box red">Red</div>
   <div class="box green">Green</div>
   <div class="box blue">Blue</div>
+  <div class="box footer">Footer</div>
 </div>
 
 <style>
   .container {
     display: grid;
-    grid-template-rows: repeat(3, 100px);
+    grid-template-rows: repeat(4, 100px);
     grid-template-columns: repeat(4, 100px);
   }
 
@@ -24,7 +25,12 @@
 
   .blue {
     background: #176dee;
-    grid-row: 2 / 5;
+    grid-row: 2 / 4;
     grid-column: 3 / -1;
+  }
+
+  .footer {
+    background: rebeccapurple;
+    grid-area: 4 / 1 / 6 / -1;
   }
 </style>
