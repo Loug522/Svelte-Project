@@ -1,12 +1,9 @@
 <script>
-  import Counter from "./lib/Counter.svelte";
+  import Inspecting from "./components/Inspecting-states.svelte";
 </script>
 
 <main>
   <div class="card">
-    <Counter />
+    <Inspecting />
   </div>
 </main>
-
-<style>
-</style>
