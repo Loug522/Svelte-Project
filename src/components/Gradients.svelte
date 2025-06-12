@@ -53,6 +53,7 @@
   }
 
   .v2 {
+    z-index: 1;
     /* border: transparent 2px solid;
     background-color: #1c1634;
     background:
@@ -61,6 +62,7 @@
   }
 
   .v1 {
+    z-index: 1;
     /* border: transparent 2px solid; 
     background-color: #1c1634;
      background-image: radial-gradient(circle at 50% 150%, #18122f, #18122f),
