@@ -14,7 +14,7 @@
 
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 1fr 10vh 3fr 10vh;
+    grid-template-rows: 10vh 1fr 3fr 10vh;
   }
 
   .header {
