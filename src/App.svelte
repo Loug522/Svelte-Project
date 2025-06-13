@@ -1,9 +1,9 @@
 <script>
-  import Inspecting from "./components/Inspecting-states.svelte";
+  import Forms from "./components/Forms.svelte";
 </script>
 
 <main>
-  <div class="card">
-    <Inspecting />
+  <div class="wrapper">
+    <Forms />
   </div>
 </main>
