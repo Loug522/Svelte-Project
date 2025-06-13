@@ -21,7 +21,7 @@
   </div>
   <div class="box-container">
     <GridLayout />
-  </div> -->
+  </div>
 </main>
 
 <style>
