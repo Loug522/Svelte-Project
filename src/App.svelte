@@ -1,4 +1,5 @@
 <script>
+  import Forms from "./components/Forms.svelte";
   import Gradients from "./components/Gradients.svelte";
   import GridLayout from "./components/GridLayout.svelte";
   import GridLayout2 from "./components/GridLayout2.svelte";
@@ -7,11 +8,15 @@
 
 <main>
   <div class="wrapper">
-    <GridLayout2 />
-    <Gradients />
+    <Forms />
   </div>
 
-  <!-- <div class="card">
+  <!-- <div class="wrapper">
+    <GridLayout2 />
+    <Gradients />
+  </div> -->
+
+  <!-- <div class="wrapper">
     <Inspecting />
   </div>
   <div class="box-container">
